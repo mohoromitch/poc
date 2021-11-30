@@ -1,0 +1,5 @@
+{
+  "name": "sst-ts-lambda-api",
+  "region": "us-east-1",
+  "main": "stacks/index.ts"
+}
