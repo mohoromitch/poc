@@ -1,0 +1,21 @@
+{
+  "name": "sls-py-lambda-docker-api",
+  "version": "1.0.0",
+  "description": "Example Python Docker Lambda API",
+  "main": " ",
+  "scripts": {
+    "prepare": "aws iam get-user > .aws_user.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexmoov/aws.git"
+  },
+  "author": "Mitchell Mohorovich <mitchell@mohorovich.ca>",
+  "homepage": "https://github.com/mohoormitch",
+  "devDependencies": {
+    "serverless": "^2.68.0",
+    "serverless-domain-manager": "^5.2.0",
+    "serverless-offline": "^8.3.1",
+    "serverless-python-requirements": "^5.2.2"
+  }
+}
