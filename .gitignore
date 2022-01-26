@@ -1,2 +1,3 @@
 .aws_user.json
 .serverless
+node_modules
